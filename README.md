@@ -1,46 +1,5 @@
 # RESPONSIVE-WEBPAGE
 
+DESCRIPTION
 
-HTML TAGS USED
- Tag	                 Purpose
-<html>	            Defines the HTML document
-<head>	         Contains document information and CSS
-<title>          	Sets the webpage title
-<style>	          Contains internal CSS
-<body>	        Contains the visible webpage content
-<header>	         Defines the header section
-<h1>	                 Main heading
-<h2>	               Section headings
-<p>	             Defines paragraphs
-<nav>	           Defines the navigation section
-<a>	                  Creates hyperlinks
-<main>	             Defines the main content
-<section>	           Groups related content
-<b>                	Makes text bold
-<ul>             	Creates an unordered list
-<li>               	Defines list items
-<footer>         	Defines the footer section
-<br>	            Inserts a line break
-
-CSS concepts used
-•	background-color 
-•	color 
-•	font-family 
-•	font-size 
-•	font-style 
-•	font-weight 
-•	text-align 
-•	text-decoration 
-•	text-shadow 
-•	letter-spacing 
-•	margin 
-•	padding 
-•	height 
-•	width 
-•	display 
-•	column-count 
-•	column-gap 
-•	column-span 
-•	line-height 
-•	@media query 
-
+The Travel Diaries webpage is a simple, attractive, and responsive travel website developed using HTML and CSS. The webpage is designed to provide information about travelling, popular destinations, and useful travel tips in an organized manner. It begins with a header section containing the title “Travel Diaries” along with the tagline “Explore • Discover • Create Memories”. A navigation bar is provided below the header with links such as Home, Destinations, Stories, and Contact, allowing users to navigate through the webpage. The main content contains an introduction section that explains the importance of travelling and creating new experiences. It also includes a Favourite Destinations section where information about destinations such as Manali, Goa, and Jaipur is displayed using a multi-column layout. A separate Smart Travel Tips section provides useful suggestions such as carrying essential documents, planning a budget, respecting local culture, and keeping the environment clean. Finally, a footer is included with a short travel message and copyright information. Various CSS properties are used to improve the appearance of the webpage, including background colors, fonts, margins, padding, text alignment, text shadows, spacing, and column layouts. Different link states such as hover, visited, and active are also styled. A media query is used to make the webpage responsive, so that the columns and navigation links adjust automatically when the webpage is viewed on smaller screens. Thus, the webpage provides a clean and user-friendly travel-themed design while demonstrating the use of important HTML and CSS concepts.
