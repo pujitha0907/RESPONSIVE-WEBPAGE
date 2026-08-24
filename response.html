@@ -1,0 +1,225 @@
+RESPONSIVE-WEBPAGE
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Diaries</title>
+    <style>
+        /* Background and Font */
+        body {
+            margin: 0;
+            font-family: Georgia, Garamond, serif;
+            background-color: #f2f7f8;
+            color: #263238;
+        }
+        /* HEADER */
+        header {
+            height: 110px;
+            background-color: #00838f;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            color: white;
+            text-shadow: 3px 3px 5px #004d40;
+        }
+        header h1 {
+            font-size: 34px;
+            font-weight: bolder;
+            letter-spacing: 4px;
+            margin: 15px;
+        }
+        header p {
+            font-style: italic;
+        }
+        /* NAVIGATION */
+        nav {
+            background-color: #b2ebf2;
+            text-align: center;
+            padding: 12px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        nav a {
+            display: inline;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:link {
+            background-color: #e0f7fa;
+            color: #006064;
+        }
+        nav a:visited {
+            background-color: #ce93d8;
+        }
+        nav a:hover {
+            background-color: #80cbc4;
+        }
+        nav a:active {
+            background-color: #ffab91;
+        }
+        /* NORMAL FLOW */
+        main {
+            display: block;
+            margin: 20px 5%;
+        }
+        /* INTRODUCTION */
+        .intro {
+            height: 160px;
+            background-color: #80cbc4;
+            padding: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .intro h2 {
+            color: #004d40;
+            text-decoration: underline;
+            font-size: 25px;
+        }
+        .intro p {
+            font-size: 17px;
+            letter-spacing: 1px;
+        }
+        /* MULTICOLUMN SECTION */
+        .destinations {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            column-count: 3;
+            column-gap: 25px;
+            text-align: justify;
+        }
+        .destinations h2 {
+            column-span: all;
+            text-align: center;
+            color: #00796b;
+            letter-spacing: 2px;
+        }
+        .destinations p {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        /* TRAVEL TIPS */
+        .tips {
+            background-color: #004d40;
+            color: white;
+            height: 190px;
+            width: 90%;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px;
+            text-align: center;
+        }
+        .tips h2 {
+            color: #80cbc4;
+            font-weight: bolder;
+        }
+        .tips ul {
+            list-style-type: circle;
+            text-align: left;
+            display: inline-block;
+        }
+        .tips a {
+            display: block;
+            margin-top: 10px;
+        }
+        /* FOOTER */
+        footer {
+            background-color: #b2dfdb;
+            color: #004d40;
+            margin-top: 20px;
+            padding: 15px;
+            text-align: center;
+            font-style: italic;
+        }
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 700px) {
+            .destinations {
+                column-count: 1;
+            }
+            .tips {
+                width: auto;
+                height: auto;
+            }
+            nav a {
+                display: block;
+                margin: 5px;
+            }
+            header {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>🌍 TRAVEL DIARIES</h1>
+        <p>Explore • Discover • Create Memories</p>
+    </header>
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Stories</a>
+        <a href="#">Contact</a>
+    </nav>
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- INTRODUCTION -->
+        <section class="intro">
+            <h2>Adventure Awaits! ✈️</h2>
+            <p>
+                Travel is not just about visiting places.
+                It is about experiencing new cultures,
+                meeting people and creating memories.
+            </p>
+        </section>
+        <!-- MULTICOLUMN CONTENT -->
+        <section class="destinations">
+            <h2>✨ Favourite Destinations</h2>
+            <p>
+                🏔️ <b>Manali</b><br>
+                Enjoy the beautiful mountains, peaceful
+                valleys and refreshing weather.
+            </p>
+            <p>
+                🏖️ <b>Goa</b><br>
+                Relax on beautiful beaches and enjoy
+                the colourful atmosphere.
+            </p>
+            <p>
+                🏛️ <b>Jaipur</b><br>
+                Explore magnificent forts, royal palaces
+                and India's rich heritage.
+            </p>
+        </section>
+        <!-- TIPS -->
+        <section class="tips">
+            <h2>🎒 Smart Travel Tips</h2>
+            <ul>
+                <li>Carry essential documents</li>
+                <li>Plan your budget</li>
+                <li>Respect local culture</li>
+                <li>Keep the environment clean</li>
+            </ul>
+            <a href="#">
+                Start Your Journey ✈️
+            </a>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        Your next adventure is waiting! 🌎
+        <br>
+        © 2026 Travel Diaries
+    </footer>
+</body>
+</html>
